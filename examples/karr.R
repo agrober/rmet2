@@ -107,7 +107,7 @@ library(rnoaa)
 ##my key="wuLtvoMAwBsdDXtZFQaEKcigIJDRzmja"
 ##need to make this part of the function
 
-options(noaakey = "wuLtvoMAwBsdDXtZFQaEKcigIJDRzmja")
+#options(noaakey = "wuLtvoMAwBsdDXtZFQaEKcigIJDRzmja")
 
 x <- ncdc_stations(datatypeid='mly-snwd-avgnds-ge001wi', locationid = 'FIPS:17089')
 print(x$data[c("name","id","mindate","maxdate")])
