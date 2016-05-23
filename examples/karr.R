@@ -103,6 +103,9 @@ system(getOption("aersurface"),
 # (see https://github.com/ropensci/rnoaa  - see section NCDC Authentication)
 
 library(rnoaa)
+
+options(noaakey = "wuLtvoMAwBsdDXtZFQaEKcigIJDRzmja")
+
 x <- ncdc_stations(datatypeid='mly-snwd-avgnds-ge001wi', locationid = 'FIPS:17089')
 print(x$data[c("name","id","mindate","maxdate")])
 
