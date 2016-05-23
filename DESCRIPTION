@@ -26,7 +26,9 @@ Depends:
     gdata,
     sp,
     leaflet,
-    geosphere
+    geosphere,
+    readr,
+    ggmap
 Imports:
 Description: This packages uses R to automate the downloading of NOAA data and
     running US EPA's AERMET system.
